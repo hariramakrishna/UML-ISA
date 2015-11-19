@@ -1,4 +1,11 @@
+<!-- Contributors
+    {
+    Hari Rama krishna Gurram,
+    Nagarjuna Yendluri
+    }
+-->
 <?php
+
 if (isset($_POST['formsubmitted'])) {
 	
 	if (empty($_POST['Name'])) {//if no name has been supplied 
@@ -25,12 +32,12 @@ if (isset($_POST['formsubmitted'])) {
     }
 	
 	
-				include './smtp/Send_Mail.php';
-				$to="hariramakrishna_gurram@student.uml.edu";
-				$subject='Message from Website - ' .$name. ' - ' .$Email. ' ';
-				$body='<h5><i>Dear</i> <b>ISA,</b></br></br>' .$message. '</br></br><em>please do not reply to this email</em>';
-				Send_Mail($to,$subject,$body);
-				$_POST['Message'] = "";
+    include './smtp/Send_Mail.php';
+    $to="hariramakrishna_gurram@student.uml.edu";
+    $subject='Message from Website - ' .$name. ' - ' .$Email. ' ';
+    $body='<h5><i>Dear</i> <b>ISA,</b></br></br>' .$message. '</br></br><em>please do not reply to this email</em>';
+    Send_Mail($to,$subject,$body);
+    $_POST['Message'] = "";
 				
 }
 
@@ -263,7 +270,8 @@ if (isset($_POST['formsubmitted'])) {
                             </div>
                         </div>
                     </div>
-					                    <div class="item">
+
+                    <div class="item">
                         <div class="thumbnail">
                             <img src="img/team/harsha.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
@@ -273,7 +281,8 @@ if (isset($_POST['formsubmitted'])) {
                             </div>
                         </div>
                     </div>
-					                    <div class="item">
+
+                    <div class="item">
                         <div class="thumbnail">
                             <img src="img/team/mayur.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
@@ -283,7 +292,8 @@ if (isset($_POST['formsubmitted'])) {
                             </div>
                         </div>
                     </div>
-					                    <div class="item">
+
+                    <div class="item">
                         <div class="thumbnail">
                             <img src="img/team/riddi.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
@@ -293,16 +303,19 @@ if (isset($_POST['formsubmitted'])) {
                             </div>
                         </div>
                     </div>
-					                 <!--   <div class="item">
+
+                    <!--   ADD NEXT GUY HERE
+                    <div class="item">
                         <div class="thumbnail">
-                            <img src="img/team/id-p.jpg" alt="..." class="img-circle team-img">
+                            <img src="img/team/NEXT-GUY.jpg" alt="..." class="img-circle team-img">
                             <div class="caption">
-                                <h3>next guy</h3>
-                                <p>jdhjeyjeyyyy</p>
+                                <h3>NEXT GUY NAME</h3>
+                                <p>NEXT GUY CAPTION</p>
                                 <p></p>
                             </div>
                         </div>
                     </div> -->
+
                 </div>
                 
             </div>
