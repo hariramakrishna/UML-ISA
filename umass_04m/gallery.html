@@ -34,19 +34,15 @@
 
 	
 	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-	<link href='./dist/simplelightbox.min.css' rel='stylesheet' type='text/css'>
-	<link href='demo.css' rel='stylesheet' type='text/css'>
+	<link href='./jquery/simplelightbox.css' rel='stylesheet' type='text/css'>
 	
     <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-	<link href='../demo/dist/simplelightbox.min.css' rel='stylesheet' type='text/css'>
     
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style type="text/css">
 /* line 1, ../demo/sass/demo.scss */
@@ -210,28 +206,29 @@ a {
         </div>
     </nav>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src="../demo/dist/simple-lightbox.js"></script>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/SmoothScroll.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.js"></script>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script type="text/javascript" src="./dist/simple-lightbox.js"></script>
+
+	<script type="text/javascript" src="./jquery/simple-lightbox.js"></script>
 
     <script src="js/owl.carousel.js"></script>
 
     <!-- Javascripts
     ================================================== -->
     <script type="text/javascript" src="js/main.js"></script>
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js" type="text/javascript"></script> -->
 	<script src="./jquery/jquery.lighter.js" type="text/javascript"></script>
 	<link href="./jquery/jquery.lighter.css" rel="stylesheet" type="text/css" />
 
+
+    <script>
+        $(function(){
+            var gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
   </body>
 </html>
