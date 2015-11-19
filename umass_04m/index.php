@@ -388,9 +388,9 @@ if (isset($_POST['formsubmitted'])) {
                         <ol class="type">
                             <li><a href="#" data-filter="*" class="active">All</a></li>
                             <li><a href="#" data-filter=".web">Diwali</a></li>
-                            <li><a href="#" data-filter=".photography">Independence Day</a></li>
-                            <li><a href="#" data-filter=".app" >Holi</a></li>
-                            <li><a href="#" data-filter=".branding" >Dandhiya</a></li>
+                            <li><a href="#" data-filter=".photography">Grad Day</a></li>
+                            <li><a href="#" data-filter=".app" >Outing</a></li>
+                           <!-- <li><a href="#" data-filter=".branding" >Dandhiya</a></li>  -->
                         </ol>
                     </li>
                 </ul>
@@ -399,81 +399,34 @@ if (isset($_POST['formsubmitted'])) {
 
             <div id="lightbox" class="row">
 
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
+               <!-- <div class="col-sm-6 col-md-3 col-lg-3 branding">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="img/portfolio/01.jpg" data-lighter>
+                            <a href="img/portfolio/7.jpg" data-lighter>
                                 <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
+                                    <h4>Rangoli</h4>
+                                    <small>ISA</small>
                                     <div class="clearfix"></div>
                                     <i class="fa fa-plus"></i>
                                 </div>
-                                <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
+                                <img src="img/portfolio/7.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
-                </div>
+                </div>  -->
 
-                <div class="col-sm-6 col-md-3 col-lg-3 photography app">
+
+                <div class="col-sm-6 col-md-3 col-lg-3 app">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="img/portfolio/02.jpg" data-lighter>
+                            <a href="img/portfolio/55.jpg" data-lighter>
                                 <div class="hover-text">
                                     <h4>Logo Design</h4>
                                     <small>Branding</small>
                                     <div class="clearfix"></div>
                                     <i class="fa fa-plus"></i>
                                 </div>
-                                <img src="img/portfolio/02.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#" data-lighter>
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/03.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#" data-lighter>
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/04.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#" data-lighter>
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/05.jpg" class="img-responsive" alt="...">
+                                <img src="img/portfolio/55.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
@@ -482,30 +435,14 @@ if (isset($_POST['formsubmitted'])) {
                 <div class="col-sm-6 col-md-3 col-lg-3 app">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#" data-lighter>
+                            <a href="img/portfolio/66.jpg" data-lighter>
                                 <div class="hover-text">
                                     <h4>Logo Design</h4>
                                     <small>Branding</small>
                                     <div class="clearfix"></div>
                                     <i class="fa fa-plus"></i>
                                 </div>
-                                <img src="img/portfolio/06.jpg" class="img-responsive" alt="...">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-3 col-lg-3 photography web">
-                    <div class="portfolio-item">
-                        <div class="hover-bg">
-                            <a href="#" data-lighter>
-                                <div class="hover-text">
-                                    <h4>Logo Design</h4>
-                                    <small>Branding</small>
-                                    <div class="clearfix"></div>
-                                    <i class="fa fa-plus"></i>
-                                </div>
-                                <img src="img/portfolio/07.jpg" class="img-responsive" alt="...">
+                                <img src="img/portfolio/66.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
@@ -514,18 +451,162 @@ if (isset($_POST['formsubmitted'])) {
                 <div class="col-sm-6 col-md-3 col-lg-3 web">
                     <div class="portfolio-item">
                         <div class="hover-bg">
-                            <a href="#" data-lighter>
+                            <a href="img/portfolio/7.jpg" data-lighter>
                                 <div class="hover-text">
                                     <h4>Logo Design</h4>
                                     <small>Branding</small>
                                     <div class="clearfix"></div>
                                     <i class="fa fa-plus"></i>
                                 </div>
-                                <img src="img/portfolio/08.jpg" class="img-responsive" alt="...">
+                                <img src="img/portfolio/7.jpg" class="img-responsive" alt="...">
                             </a>
                         </div>
                     </div>
                 </div>
+				
+                <div class="col-sm-6 col-md-3 col-lg-3 app">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="img/portfolio/g4.jpg" data-lighter>
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/g4.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>				
+				
+                <div class="col-sm-6 col-md-3 col-lg-3 web">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="img/portfolio/12.jpg" data-lighter>
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/12.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 web">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="img/portfolio/99.jpg" data-lighter>
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/99.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>	
+
+                <div class="col-sm-6 col-md-3 col-lg-3 web">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="img/portfolio/71.jpg" data-lighter>
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/71.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>					
+				
+                <div class="col-sm-6 col-md-3 col-lg-3 photography">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="img/portfolio/g1.jpg" data-lighter>
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/g1.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-3 col-lg-3 photography">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="img/portfolio/77.jpg" data-lighter>
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/77.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>				
+				
+				<div class="col-sm-6 col-md-3 col-lg-3 app">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="img/portfolio/88.jpg" data-lighter>
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/88.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="col-sm-6 col-md-3 col-lg-3 app">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="img/portfolio/22.jpg" data-lighter>
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/22.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>				
+				
+                <div class="col-sm-6 col-md-3 col-lg-3 photography">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <a href="img/portfolio/g3.jpg" data-lighter>
+                                <div class="hover-text">
+                                    <h4>Logo Design</h4>
+                                    <small>Branding</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                                <img src="img/portfolio/g3.jpg" class="img-responsive" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                </div>				
 
             </div>
 			</div>
